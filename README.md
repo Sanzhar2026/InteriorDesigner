@@ -1,4 +1,6 @@
-<video src="https://github.com/Sanzhar2026/InteriorDesigner/issues/1#issue-4844269344" controls></video>
+## 🎥 Demo Video
+
+https://github.com/Sanzhar2026/InteriorDesigner/issues/1#issue-4844269344
 
 <<<<<<< HEAD
 
