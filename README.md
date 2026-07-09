@@ -1,60 +1,101 @@
-Short Description
+cat > README.md << 'EOF'
+# 🏠 AI Interior Designer
 
-AI Interior Designer — a web application for generating interior design using Stable Diffusion. Upload a photo of your room, choose a style, and get 4 design variations in seconds.
-Full Description
+**Generate interior design concepts using Stable Diffusion AI**
 
-AI Interior Designer is a full-featured web application that uses Stable Diffusion to generate interior design concepts. The project showcases a modern approach to AI image generation with a user-friendly interface and a fast backend.
+## 📸 Demo
 
-How it works:
+Upload a photo of your room → choose a style → get 4 design variations
 
-Upload a photo of your room
-Choose a style (Modern, Classic, Loft, Scandinavian, etc.)
-Get 4 unique design variations
-Download your favorite design
-Tech Stack:
+## ✨ Features
 
-Next.js 14 + TypeScript + Tailwind CSS (Frontend)
-FastAPI + Python (Backend)
-Stable Diffusion (AI Generation)
-Deployed on Vercel + Railway
+- 📷 Upload any room photo
+- 🎨 8 design styles (Modern, Classic, Loft, Scandinavian, etc.)
+- 🤖 AI-powered generation with Stable Diffusion
+- 🖼️ 4 unique design variations per request
+- 💾 Download your favorite design
+- 🌙 Dark theme UI with glass-morphism effects
 
-Краткое описание
+## 🛠 Tech Stack
 
-AI Interior Designer — веб-приложение для генерации дизайна интерьера с помощью Stable Diffusion. Загрузи фото комнаты, выбери стиль и получи 4 варианта дизайна за секунды.
-Полное описание
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS, Lucide Icons
+- **Backend**: FastAPI, Python, Uvicorn
+- **AI**: Stable Diffusion (Colab / Hugging Face / Local)
+- **Deployment**: Vercel (Frontend), Railway (Backend)
 
-AI Interior Designer — это полнофункциональное веб-приложение, которое использует Stable Diffusion для генерации дизайна интерьера. Проект демонстрирует современный подход к AI-генерации изображений с удобным интерфейсом и быстрым бекендом.
+## 🚀 Quick Start
 
-Как это работает:
+### Backend
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python run.py
+```
 
-Загрузи фото своей комнаты
-Выбери стиль (Modern, Classic, Loft, Scandinavian и др.)
-Получи 4 уникальных варианта дизайна
-Скачай понравившийся вариант
-Технологический стек:
+cat > README.md << 'EOF'
+# 🏠 AI Interior Designer
 
-Next.js 14 + TypeScript + Tailwind CSS (Фронтенд)
-FastAPI + Python (Бекенд)
-Stable Diffusion (AI генерация)
-Развернуто на Vercel + Railway
+**Генерация дизайна интерьера через Stable Diffusion**
 
-Қысқаша сипаттама
+## 📸 Демо
 
-AI Interior Designer — Stable Diffusion көмегімен интерьер дизайнын жасайтын веб-қосымша. Бөлмеңіздің суретін жүктеп, стильді таңдап, 4 дизайн нұсқасын алыңыз.
-Толық сипаттама
+Загрузи фото комнаты → выбери стиль → получи 4 варианта дизайна
 
-AI Interior Designer — бұл Stable Diffusion көмегімен интерьер дизайнын жасайтын толық функционалды веб-қосымша. Жоба AI сурет генерациясының заманауи тәсілін ыңғайлы интерфейс пен жылдам бекендпен көрсетеді.
+## 🛠 Технологии
 
-Қалай жұмыс істейді:
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Backend**: FastAPI, Python
+- **AI**: Stable Diffusion (Colab / Hugging Face)
 
-Бөлмеңіздің суретін жүктеңіз
-Стильді таңдаңыз (Modern, Classic, Loft, Scandinavian т.б.)
-4 бірегей дизайн нұсқасын алыңыз
-Ұнаған нұсқасын жүктеп алыңыз
-Технологиялық стек:
+## 🚀 Быстрый старт
 
-Next.js 14 + TypeScript + Tailwind CSS (Фронтенд)
-FastAPI + Python (Бекенд)
-Stable Diffusion (AI генерация)
-Vercel + Railway платформаларында орналастырылған
+### Backend
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python run.py
+```
 
+---
+
+## 🇰🇿 Қазақша нұсқасы
+
+cat > README_KZ.md << 'EOF'
+# 🏠 AI Interior Designer
+
+**Stable Diffusion көмегімен интерьер дизайнын жасау**
+
+## 📸 Демо
+
+Бөлменің суретін жүкте → стильді таңда → 4 дизайн нұсқасын ал
+
+## ✨ Мүмкіндіктер
+
+- 📷 Кез келген бөлменің суретін жүктеу
+- 🎨 8 дизайн стилі (Modern, Classic, Loft, Scandinavian т.б.)
+- 🤖 Stable Diffusion көмегімен AI-генерация
+- 🖼️ Бір сұранысқа 4 бірегей дизайн нұсқасы
+- 💾 Ұнаған нұсқасын жүктеп алу
+- 🌙 Шыны эффектілері бар қараңғы тақырып
+
+## 🛠 Технологиялар
+
+- **Фронтенд**: Next.js 14, TypeScript, Tailwind CSS, Lucide Icons
+- **Бекенд**: FastAPI, Python, Uvicorn
+- **AI**: Stable Diffusion (Colab / Hugging Face / Локалды)
+- **Деплой**: Vercel (Фронтенд), Railway (Бекенд)
+
+## 🚀 Жылдам бастау
+
+### Бекенд
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python run.py
+```
